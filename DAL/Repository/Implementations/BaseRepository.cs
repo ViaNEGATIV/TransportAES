@@ -46,7 +46,7 @@ namespace DAL.Repository.Implementations
         }
         public void Update(T item)
         {
-            context.Entry(item).State = EntityState.Modified;
+            context.Update(item);
         }
 
     }
