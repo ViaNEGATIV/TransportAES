@@ -25,6 +25,16 @@ namespace BLL.Services.OrderService
             _unitOfWork = unitOfWork;
         }
 
+        // BACKLOG STORY:
+        // №1
+        // Пріорітетність: 1
+        // Назва: Перегляд списку замовлень
+        // Попередня оцінка: 2
+        // Роль: Оператор, клієнт
+        // Функція (Що я хочу): Переглядати список доступних замовлень 
+        // Приймальні тести: Увійти в систему, обрати сторінку зі списком замовлень,
+        // перевірити завантажені на сторінку замовлення
+
         public IEnumerable<OrderDTO> GetAllOrders()
         {
             var user = SecurityContext.GetUser();
