@@ -8,7 +8,7 @@ namespace CCL.Identity
 {
     public class Client : User
     {
-        public Client(int user_Id, string user_Name, string user_Email, string role) 
+        public Client(int user_Id, string user_Name, string user_Email) 
             : base(user_Id, user_Name, user_Email, nameof(Client))
         {
         }

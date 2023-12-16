@@ -8,7 +8,7 @@ namespace CCL.Identity
 {
     public class Driver : User
     {
-        public Driver(int user_Id, string user_Name, string user_Email, string role) 
+        public Driver(int user_Id, string user_Name, string user_Email) 
             : base(user_Id, user_Name, user_Email, nameof(Driver))
         {
         }
