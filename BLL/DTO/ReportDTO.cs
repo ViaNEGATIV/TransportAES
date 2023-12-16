@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Entities
+namespace BLL.DTO
 {
-    public class Report
+    public class ReportDTO
     {
         public int ReportId { get; set; }
         public string Title { get; set; }
-        public List<int> TransportationIds { get; set; }
         public double TotalCost { get; set; }
     }
 }
